@@ -80,6 +80,8 @@ a {
     display: grid;
     gap: 32px;
     grid-template-columns: repeat(12, 1fr);
+    padding-bottom: 128px;
+    padding-top: 128px;
 
     &__item {
         height: 300px;
@@ -93,8 +95,6 @@ a {
         border-radius: 16px;
         display: flex;
         align-items: flex-end;
-        margin-bottom: 128px;
-        margin-top: 128px;
         padding-left: 32px;
         padding-bottom: 32px;
       
