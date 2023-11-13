@@ -5,11 +5,11 @@ z = 20;
 alert(z);
 
 // Задание 2
-let ageFirstIphone = 2007;
+const ageFirstIphone = 2007;
 alert(ageFirstIphone);
 
 // Задание 3
-let creatorJS = "Брендан Эйх";
+const creatorJS = "Брендан Эйх";
 alert(creatorJS);
 
 // Задание 4
@@ -33,12 +33,12 @@ alert(remainder);
 
 // Задание 7
 let num = 1;
-num += 5;
-num -= 3;
-num *= 7;
-num /= 3;
-num += 1;
-num -= 1;
+num += 5; //num = num + 5
+num -= 3; //num = num - 3
+num *= 7; //num = num * 7
+num /= 3; //num = num / 3
+++num; //num = num + 1
+--num; //num = num - 1
 alert(num);
 
 // Задание 8
