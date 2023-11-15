@@ -67,6 +67,10 @@ a {
   justify-content: center;
   align-items: center;
 }
+.header__button:hover {
+  border-radius: 30px;
+  background: #EB443F;
+}
 
 .for-box {
   background: #000915;
@@ -94,6 +98,10 @@ a {
   padding-left: 32px;
   padding-bottom: 32px;
 }
+.for__item:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+}
 .for__item_1 {
   background-image: url(./img/Rectangle2.jpg);
   background-repeat: no-repeat;
@@ -111,6 +119,62 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.game {
+  background: #000915;
+}
+.game__content {
+  display: flex;
+  gap: 135px;
+  padding-top: 233px;
+  padding-bottom: 233px;
+}
+.game__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  width: 584px;
+}
+.game__heading {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.game__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+.game__button {
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #9C0332;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game__button:hover {
+  border-radius: 30px;
+  background: #EB443F;
+}
+.game__img_mob {
+  display: none;
 }
 
 @media (max-width: 375px) {
@@ -133,6 +197,7 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 238px;
   }
   .header__text {
     color: #FFF;
@@ -158,5 +223,38 @@ a {
   .for__item {
     grid-column: span 1;
     padding-left: 14px;
+  }
+  .game__content {
+    gap: 64px;
+    flex-wrap: wrap;
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .game__info {
+    align-items: center;
+  }
+  .game__heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .game__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .game__img {
+    display: none;
+  }
+  .game__img_mob {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

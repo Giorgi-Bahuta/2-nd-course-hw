@@ -69,6 +69,11 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        &:hover {
+            border-radius: 30px;
+            background: #EB443F;
+        }
     }
 }
 
@@ -97,6 +102,11 @@ a {
         align-items: flex-end;
         padding-left: 32px;
         padding-bottom: 32px;
+
+        &:hover {
+            border-radius: 16px;
+            border: 3px solid #44D2FF;
+        }
       
         
         &_1 {
@@ -119,6 +129,69 @@ a {
             background-position: center;
             background-size: cover;
         }
+    }
+}
+
+.game {
+    background: #000915;
+
+    &__content {
+        display: flex;
+        gap: 135px;
+        padding-top: 233px;
+        padding-bottom: 233px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+        width: 584px;
+    }
+
+    &__heading {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+    }
+
+    &__button {
+        width: 234.063px;
+        height: 48.603px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #9C0332;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            border-radius: 30px;
+            background: #EB443F;
+        }
+    }
+    
+    &__img_mob {
+        display: none;
     }
 }
 

@@ -19,7 +19,8 @@
             font-size: 32px;
             font-style: normal;
             font-weight: 700;
-            line-height: normal;   
+            line-height: normal;
+            margin-top: 238px;   
         }
 
         &__text {
@@ -49,6 +50,47 @@
         &__item {
             grid-column: span 1;
             padding-left: 14px;
+        }
+    }
+
+    .game {
+        &__content {
+            gap: 64px;
+            flex-wrap: wrap;
+            padding-top: 51px;
+            padding-bottom: 85px;
+        }
+
+        &__info {
+            align-items: center;
+        }
+
+        &__heading {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &__text {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+        }
+
+        &__img{
+            display: none;
+
+            &_mob{
+                display: block;
+            }
         }
     }
 }
