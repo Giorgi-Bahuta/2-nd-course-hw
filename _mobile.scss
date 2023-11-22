@@ -92,4 +92,13 @@
             }
         }
     }
+
+    .lastGame {
+        background-image: url(./img/lastGame_mob.jpg);
+        
+        &__content {
+            padding-top: 51px;
+            padding-bottom: 487px;
+        }
+    }
 }
