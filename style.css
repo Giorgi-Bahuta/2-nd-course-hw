@@ -178,6 +178,40 @@ a {
   display: none;
 }
 
+.lastGame {
+  background-image: url(./img/lastGame.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.lastGame__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding-top: 276px;
+  padding-bottom: 288px;
+}
+.lastGame__text {
+  text-align: center;
+}
+
+.footer {
+  background: #000915;
+  height: 80px;
+}
+.footer__text {
+  text-align: center;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 @media (max-width: 375px) {
   .top {
     height: 735px;
@@ -256,5 +290,12 @@ a {
   }
   .game__img_mob {
     display: block;
+  }
+  .lastGame {
+    background-image: url(./img/lastGame_mob.jpg);
+  }
+  .lastGame__content {
+    padding-top: 51px;
+    padding-bottom: 487px;
   }
 }/*# sourceMappingURL=style.css.map */
