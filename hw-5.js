@@ -32,7 +32,7 @@ alert(greeting);
 //Задание 5
 function num(a, b) {
     isNaN(a) || isNaN(b) ?  console.log('Одно или оба значения не являются числом') : console.log(a * b); 
-}
+}   
 num(5, 4);
 
 //Задание 6
