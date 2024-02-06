@@ -24,4 +24,4 @@ function secondGame(){
     } else {
         alert('Не верно')
     }
-    }
+}
